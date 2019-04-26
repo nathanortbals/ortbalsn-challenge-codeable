@@ -8,22 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		44CAEE88227365A9007653B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CAEE87227365A9007653B3 /* AppDelegate.swift */; };
-		44CAEE8A227365A9007653B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CAEE89227365A9007653B3 /* ViewController.swift */; };
 		44CAEE8D227365A9007653B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44CAEE8B227365A9007653B3 /* Main.storyboard */; };
 		44CAEE90227365A9007653B3 /* ortbalsn_challenge_codeable.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 44CAEE8E227365A9007653B3 /* ortbalsn_challenge_codeable.xcdatamodeld */; };
 		44CAEE92227365AA007653B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44CAEE91227365AA007653B3 /* Assets.xcassets */; };
 		44CAEE95227365AA007653B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44CAEE93227365AA007653B3 /* LaunchScreen.storyboard */; };
+		44CAEE9D2273665D007653B3 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CAEE9C2273665D007653B3 /* Product.swift */; };
+		44CAEE9F227366E9007653B3 /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CAEE9E227366E9007653B3 /* ProductTableViewCell.swift */; };
+		44CAEEA1227367A6007653B3 /* ProductsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CAEEA0227367A6007653B3 /* ProductsViewController.swift */; };
+		44CAEEA5227369C9007653B3 /* inventory.json in Resources */ = {isa = PBXBuildFile; fileRef = 44CAEEA4227369C9007653B3 /* inventory.json */; };
+		44CAEEA722736B5B007653B3 /* Inventory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CAEEA622736B5B007653B3 /* Inventory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		44CAEE84227365A9007653B3 /* ortbalsn-challenge-codeable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ortbalsn-challenge-codeable.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		44CAEE87227365A9007653B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		44CAEE89227365A9007653B3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		44CAEE8C227365A9007653B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		44CAEE8F227365A9007653B3 /* ortbalsn_challenge_codeable.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ortbalsn_challenge_codeable.xcdatamodel; sourceTree = "<group>"; };
 		44CAEE91227365AA007653B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44CAEE94227365AA007653B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		44CAEE96227365AA007653B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44CAEE9C2273665D007653B3 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		44CAEE9E227366E9007653B3 /* ProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
+		44CAEEA0227367A6007653B3 /* ProductsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsViewController.swift; sourceTree = "<group>"; };
+		44CAEEA4227369C9007653B3 /* inventory.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = inventory.json; sourceTree = "<group>"; };
+		44CAEEA622736B5B007653B3 /* Inventory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inventory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +64,17 @@
 		44CAEE86227365A9007653B3 /* ortbalsn-challenge-codeable */ = {
 			isa = PBXGroup;
 			children = (
+				44CAEEA4227369C9007653B3 /* inventory.json */,
 				44CAEE87227365A9007653B3 /* AppDelegate.swift */,
-				44CAEE89227365A9007653B3 /* ViewController.swift */,
+				44CAEEA0227367A6007653B3 /* ProductsViewController.swift */,
 				44CAEE8B227365A9007653B3 /* Main.storyboard */,
 				44CAEE91227365AA007653B3 /* Assets.xcassets */,
 				44CAEE93227365AA007653B3 /* LaunchScreen.storyboard */,
 				44CAEE96227365AA007653B3 /* Info.plist */,
 				44CAEE8E227365A9007653B3 /* ortbalsn_challenge_codeable.xcdatamodeld */,
+				44CAEE9C2273665D007653B3 /* Product.swift */,
+				44CAEE9E227366E9007653B3 /* ProductTableViewCell.swift */,
+				44CAEEA622736B5B007653B3 /* Inventory.swift */,
 			);
 			path = "ortbalsn-challenge-codeable";
 			sourceTree = "<group>";
@@ -125,6 +137,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44CAEEA5227369C9007653B3 /* inventory.json in Resources */,
 				44CAEE95227365AA007653B3 /* LaunchScreen.storyboard in Resources */,
 				44CAEE92227365AA007653B3 /* Assets.xcassets in Resources */,
 				44CAEE8D227365A9007653B3 /* Main.storyboard in Resources */,
@@ -138,7 +151,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44CAEE8A227365A9007653B3 /* ViewController.swift in Sources */,
+				44CAEEA722736B5B007653B3 /* Inventory.swift in Sources */,
+				44CAEEA1227367A6007653B3 /* ProductsViewController.swift in Sources */,
+				44CAEE9D2273665D007653B3 /* Product.swift in Sources */,
+				44CAEE9F227366E9007653B3 /* ProductTableViewCell.swift in Sources */,
 				44CAEE90227365A9007653B3 /* ortbalsn_challenge_codeable.xcdatamodeld in Sources */,
 				44CAEE88227365A9007653B3 /* AppDelegate.swift in Sources */,
 			);
